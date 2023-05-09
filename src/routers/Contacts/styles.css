@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.iconContact {
+  font-size: 3rem;
+  color: rgb(3 105 161 );
+  animation: fadeIn 0.3s ease-in-out;
+}

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.menuBarClose{
+  display: none;
+}
+
+.menuBar{
+  display: block;
+  font-size: larger;
+  margin-bottom: 5vh;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.sectionButton {
+  margin-block: 2vh;
+  width: 100vw;
+}
+
+.buttonMenu {
+  height: 5vh;
+  border-radius: 30px;
+  background: rgb(3 105 161 );
+  box-shadow: 1px 2px 5px black;
+}
+
+
+.buttonMenu:hover {
+  transition: 0.4s;
+  transform: scale(1.03);
+}
+
+.FaBars {
+  color: #fff;
+  background: rgb(3 105 161 );
+  font-size: x-large;
+  margin-inline: 5px;
+}
+
+.buttonMenu p {
+  color: #fff;
+  font-size: x-large;
+  background: rgb(3 105 161 );
+  margin-inline: 5px;
+}
+
+.linkMenu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2vh;
+  font-size: 1.1em;
+}

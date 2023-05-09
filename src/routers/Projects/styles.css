@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.containerProjects {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.containerProjects img {
+  width: 300px;
+  height: 180px;
+  margin: auto;
+  margin-block: 1.2vh;
+  box-shadow: 1px 2px 5px black;
+
+
+}
+
+.containerProjects  li{
+  margin-block: 5vh;
+}
+
+li:hover {
+  transition: 0.4s;
+  transform: scale(1.03);
+}
