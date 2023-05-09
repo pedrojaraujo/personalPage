@@ -5,6 +5,7 @@ import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/vite-gh-pages",
   presets: ["babel-preset-vite"],
   plugins: [react(), babel(), eslint()],
 });
