@@ -6,6 +6,6 @@ import eslint from "vite-plugin-eslint";
 // https://vitejs.dev/config/
 export default defineConfig({
   presets: ["babel-preset-vite"],
-  base: "/personalPage/",
+  base: "/",
   plugins: [react(), babel(), eslint()],
 });
